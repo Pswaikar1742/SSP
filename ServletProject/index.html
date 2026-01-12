@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servlet Assignment - Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 900px;
+            width: 100%;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 36px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 40px;
+            font-size: 16px;
+        }
+        
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        
+        .card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+        
+        .card-icon {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+        
+        .card h2 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        
+        .card p {
+            color: #555;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        
+        .card a {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: transform 0.3s;
+        }
+        
+        .card a:hover {
+            transform: scale(1.05);
+        }
+        
+        .info {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            border-left: 5px solid #3498db;
+        }
+        
+        .info h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .info ul {
+            list-style-position: inside;
+            color: #555;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Servlet Programming Assignment</h1>
+        <p class="subtitle">Explore different servlet demonstrations</p>
+        
+        <div class="cards">
+            <div class="card">
+                <div class="card-icon">🔄</div>
+                <h2>Servlet Life Cycle</h2>
+                <p>Understand the three phases: init(), service(), and destroy() methods</p>
+                <a href="LifeCycleServlet">View Demo</a>
+            </div>
+            
+            <div class="card">
+                <div class="card-icon">📋</div>
+                <h2>Request Headers</h2>
+                <p>Display all HTTP request headers and client information</p>
+                <a href="RequestHeaderServlet">View Headers</a>
+            </div>
+            
+            <div class="card">
+                <div class="card-icon">🎓</div>
+                <h2>Student Form</h2>
+                <p>Process student information using form submission</p>
+                <a href="student-form.html">Fill Form</a>
+            </div>
+        </div>
+        
+        <div class="info">
+            <h3>About This Assignment</h3>
+            <ul>
+                <li><strong>Servlet Life Cycle:</strong> Demonstrates init(), service(), and destroy() methods</li>
+                <li><strong>Request Headers:</strong> Shows how to access and display HTTP headers</li>
+                <li><strong>Form Processing:</strong> Handles student registration form with various input types</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

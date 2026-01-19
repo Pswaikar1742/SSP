@@ -1,0 +1,56 @@
+19-Jan-2026 15:33:10.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+19-Jan-2026 15:33:10.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+19-Jan-2026 15:33:10.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+19-Jan-2026 15:33:10.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Jan-2026 15:33:10.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.18.3-201.nobara.fc43.x86_64
+19-Jan-2026 15:33:10.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Jan-2026 15:33:10.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-25-openjdk
+19-Jan-2026 15:33:10.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1+8
+19-Jan-2026 15:33:10.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+19-Jan-2026 15:33:10.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/psw/Projects/SSP/apache-tomcat-10.1.50
+19-Jan-2026 15:33:10.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/psw/Projects/SSP/apache-tomcat-10.1.50
+19-Jan-2026 15:33:10.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/psw/Projects/SSP/apache-tomcat-10.1.50/conf/logging.properties
+19-Jan-2026 15:33:10.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jan-2026 15:33:10.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jan-2026 15:33:10.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jan-2026 15:33:10.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+19-Jan-2026 15:33:10.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jan-2026 15:33:10.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jan-2026 15:33:10.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+19-Jan-2026 15:33:10.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jan-2026 15:33:10.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Jan-2026 15:33:10.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Jan-2026 15:33:10.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jan-2026 15:33:10.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/psw/Projects/SSP/apache-tomcat-10.1.50
+19-Jan-2026 15:33:10.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/psw/Projects/SSP/apache-tomcat-10.1.50
+19-Jan-2026 15:33:10.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/psw/Projects/SSP/apache-tomcat-10.1.50/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/home/psw/Projects/SSP/apache-tomcat-10.1.50/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+19-Jan-2026 15:33:10.317 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+19-Jan-2026 15:33:10.513 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jan-2026 15:33:10.534 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [356] milliseconds
+19-Jan-2026 15:33:10.563 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jan-2026 15:33:10.563 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+19-Jan-2026 15:33:10.570 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/psw/Projects/SSP/apache-tomcat-10.1.50/webapps/ROOT]
+19-Jan-2026 15:33:10.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/psw/Projects/SSP/apache-tomcat-10.1.50/webapps/ROOT] has finished in [211] ms
+19-Jan-2026 15:33:10.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/psw/Projects/SSP/apache-tomcat-10.1.50/webapps/docs]
+19-Jan-2026 15:33:10.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/psw/Projects/SSP/apache-tomcat-10.1.50/webapps/docs] has finished in [14] ms
+19-Jan-2026 15:33:10.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/psw/Projects/SSP/apache-tomcat-10.1.50/webapps/examples]
+19-Jan-2026 15:33:10.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/psw/Projects/SSP/apache-tomcat-10.1.50/webapps/examples] has finished in [137] ms
+19-Jan-2026 15:33:10.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/psw/Projects/SSP/apache-tomcat-10.1.50/webapps/host-manager]
+19-Jan-2026 15:33:10.949 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/psw/Projects/SSP/apache-tomcat-10.1.50/webapps/host-manager] has finished in [14] ms
+19-Jan-2026 15:33:10.949 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/psw/Projects/SSP/apache-tomcat-10.1.50/webapps/manager]
+19-Jan-2026 15:33:10.961 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/psw/Projects/SSP/apache-tomcat-10.1.50/webapps/manager] has finished in [12] ms
+19-Jan-2026 15:33:10.961 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/psw/Projects/SSP/apache-tomcat-10.1.50/webapps/ServletProject]
+=== INIT METHOD CALLED ===
+Servlet is being initialized - Count: 1
+This method is called only ONCE during servlet lifecycle
+19-Jan-2026 15:33:10.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/psw/Projects/SSP/apache-tomcat-10.1.50/webapps/ServletProject] has finished in [25] ms
+19-Jan-2026 15:33:10.989 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jan-2026 15:33:10.996 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [459] milliseconds
+
+=== SERVICE METHOD CALLED ===
+Processing request - Service Count: 1

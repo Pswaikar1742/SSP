@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [19/Jan/2026:15:33:24 +0530] "GET /ServletProject/ HTTP/1.1" 200 4620
+0:0:0:0:0:0:0:1 - - [19/Jan/2026:15:34:57 +0530] "GET /ServletProject/ HTTP/1.1" 200 4620
+0:0:0:0:0:0:0:1 - - [19/Jan/2026:15:34:57 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [19/Jan/2026:15:35:00 +0530] "GET /ServletProject/LifeCycleServlet HTTP/1.1" 200 1557
+0:0:0:0:0:0:0:1 - - [19/Jan/2026:15:35:06 +0530] "GET /ServletProject/RequestHeaderServlet HTTP/1.1" 200 4689
+0:0:0:0:0:0:0:1 - - [19/Jan/2026:15:35:26 +0530] "GET /ServletProject/student-form.html HTTP/1.1" 200 8401

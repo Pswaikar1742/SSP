@@ -43,3 +43,7 @@
 19-Jan-2026 15:33:10.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/psw/Projects/SSP/apache-tomcat-10.1.50/webapps/ServletProject] has finished in [25] ms
 19-Jan-2026 15:33:10.989 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 19-Jan-2026 15:33:10.996 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [459] milliseconds
+19-Jan-2026 15:51:20.669 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jan-2026 15:51:20.726 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jan-2026 15:51:20.806 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jan-2026 15:51:20.817 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

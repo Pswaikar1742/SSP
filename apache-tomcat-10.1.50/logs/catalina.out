@@ -54,3 +54,13 @@ This method is called only ONCE during servlet lifecycle
 
 === SERVICE METHOD CALLED ===
 Processing request - Service Count: 1
+19-Jan-2026 15:51:20.669 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jan-2026 15:51:20.726 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+
+=== DESTROY METHOD CALLED ===
+Servlet is being destroyed
+Final service count: 1
+Performing cleanup operations...
+This method is called only ONCE when servlet is unloaded
+19-Jan-2026 15:51:20.806 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jan-2026 15:51:20.817 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

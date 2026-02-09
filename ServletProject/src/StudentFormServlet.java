@@ -2,10 +2,6 @@ import java.io.*;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 
-/**
- * Servlet for Processing Student Information Form
- * Demonstrates form handling and data processing
- */
 public class StudentFormServlet extends HttpServlet {
     
     @Override

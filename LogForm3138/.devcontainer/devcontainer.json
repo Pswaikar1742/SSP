@@ -1,0 +1,8 @@
+{
+  "name": "Tomcat Java Dev",
+  "build": { "dockerfile": "Dockerfile" },
+  "forwardPorts": [8081],
+  "postCreateCommand": "mvn -f LogForm3138/pom.xml -q package -DskipTests || true",
+  "remoteUser": "root",
+  "workspaceFolder": "/workspace"
+}

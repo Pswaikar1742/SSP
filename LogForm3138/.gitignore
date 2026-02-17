@@ -1,0 +1,9 @@
+target/
+*.war
+*.db
+.idea/
+.vscode/
+.devcontainer/.cache/
+logs/
+apache-tomcat-10.1.50/
+*.class

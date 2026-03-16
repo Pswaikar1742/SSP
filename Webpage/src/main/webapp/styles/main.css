@@ -1,0 +1,86 @@
+:root {
+    --bg: #f6fbff;
+    --card: #ffffff;
+    --text: #0f172a;
+    --muted: #475569;
+    --accent: #0ea5e9;
+    --accent-dark: #0284c7;
+    --ring: rgba(14, 165, 233, 0.25);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text);
+    background: radial-gradient(circle at 0% 0%, #dbeafe, transparent 45%),
+                radial-gradient(circle at 100% 100%, #e0f2fe, transparent 40%),
+                var(--bg);
+    display: grid;
+    place-items: center;
+    padding: 24px;
+}
+
+.container {
+    width: min(620px, 100%);
+}
+
+h1 {
+    margin: 0 0 10px;
+}
+
+p {
+    color: var(--muted);
+}
+
+.card {
+    margin-top: 18px;
+    background: var(--card);
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.07);
+    padding: 22px;
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 4px var(--ring);
+}
+
+button,
+.btn {
+    margin-top: 8px;
+    display: inline-block;
+    background: linear-gradient(180deg, var(--accent), var(--accent-dark));
+    border: 0;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover,
+.btn:hover {
+    filter: brightness(1.05);
+}

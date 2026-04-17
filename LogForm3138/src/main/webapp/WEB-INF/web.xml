@@ -26,4 +26,9 @@
         <welcome-file>login.html</welcome-file>
     </welcome-file-list>
 
+    <!-- Context listener to seed the database on startup -->
+    <listener>
+        <listener-class>p1.DBSeederListener</listener-class>
+    </listener>
+
 </web-app>

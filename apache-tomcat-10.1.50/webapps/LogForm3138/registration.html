@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form action="RegistrationServlet" method="post">
+
+    Username: <input type="text" name="username" required><br><br>
+    Password: <input type="password" name="password" required><br><br>
+    Confirm Password: <input type="password" name="confirmpassword" required><br><br>
+    Address: <input type="text" name="address"><br><br>
+    DOB: <input type="date" name="dob"><br><br>
+    Contact: <input type="text" name="contact"><br><br>
+    City: <input type="text" name="city"><br><br>
+
+    Gender:
+    <input type="radio" name="gender" value="Male">Male
+    <input type="radio" name="gender" value="Female">Female
+    <br><br>
+
+    <input type="submit" value="Register">
+
+</form>
+
+</body>
+</html>
